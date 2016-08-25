@@ -6,6 +6,8 @@
 3. Run the executable and see if it prints out "Hello World!"
 
 ## Library
-1. Make a library from math_lib.c using the ar command. (should create a .a file)
+1. Compile math_lib.c to get math_lib.o
+1. Make a library from math_lib.o using the ar command. (should create .a file)
 2. Compile useLib.c
-3. Use .o file (useLib.o) from step 2 to create an executable using the library you created in step 1.
+3. Use useLib.o from step 2 to create an executable using the library you created in step 1.
+4. Run the executable and see if it prints out 7.
